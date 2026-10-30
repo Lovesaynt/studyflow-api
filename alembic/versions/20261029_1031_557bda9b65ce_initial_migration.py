@@ -88,9 +88,9 @@ def upgrade() -> None:
         ),
         sa.ForeignKeyConstraint(["user_id"], ["users.id"], ondelete="CASCADE"),
         sa.ForeignKeyConstraint(
-            ["subject_id", "user_id"],
-            ["subjects.id", "subjects.user_id"],
-            name="fk_task_subject_user",
+            ["subject_id"],
+            ["subjects.id"],
+            name="fk_task_subject",
             ondelete="SET NULL",
         ),
         sa.PrimaryKeyConstraint("id"),
