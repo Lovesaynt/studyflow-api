@@ -374,7 +374,3 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 | Production Hardening | ⚠️ Basic (add WAF, monitoring, secrets rotation for prod) |
 
 > **Note:** This is a backend API only. A frontend client is not included.
-
----
-
-*Generated with transparency. Last updated: 2026.*
