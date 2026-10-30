@@ -13,6 +13,7 @@ ENV/
 .env
 .env.local
 .env.*.local
+.env.*
 
 # IDE
 .vscode/
@@ -48,8 +49,3 @@ Thumbs.db
 # Local databases
 *.db
 studyflow*.db
-
-# Local environment
-.env
-.env.local
-.env.*.local
